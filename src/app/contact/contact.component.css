@@ -1,0 +1,76 @@
+.card {
+  width: 1000px; 
+  height: 500px;
+  border-radius: 20px; 
+  box-shadow: 10px 10px 10px rgba(75, 73, 73, 0.2);
+  background-color: hsl(0, 0%, 100%);
+  padding: 40px; 
+}
+
+.centered-paragraph {
+  text-align: center;
+}
+
+
+  input {
+    background-color: #f5f5f5;
+  }
+
+  /*--------------------------------------*/
+  
+  .btn{
+    background-color : #FFA318;
+    color: white;
+    width: 100px;
+    height: 30px;
+    line-height: 12px;
+   
+    margin-left: 700px;
+    margin-top: -50px;
+  }
+  
+.btnn{
+display: inline-block;
+text-decoration: none;
+background: #ffffff;
+color: #ff5633;
+
+width: 75px;
+height: 75px;
+line-height: 75px;
+border-radius: 50%;
+text-align: center;
+font-weight: bold;
+vertical-align: middle;
+overflow: hidden;
+box-shadow: -10px -10px 20px #fff0f0; 
+
+transition: .4s;
+}
+#b1{
+  margin-top: 0px;
+ margin-left: -85px;
+ border: solid 3px #ff5633;
+}
+#b2{
+  margin-top: 45px;
+ margin-left: -85px;
+ border-bottom: solid 3px #ff5633;
+}
+#b3{
+  margin-top: 40px;
+ margin-left: -85px;
+ border-bottom: solid 3px #ff5633;
+}
+#b4{
+  margin-top: 30px;
+ margin-left: -85px;
+ border-bottom: solid 3px #ff5633;
+}
+/*--------------------------------------*/
+.progress{
+  height :15px;
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 40px;
+}

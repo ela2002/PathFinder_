@@ -1,0 +1,156 @@
+
+
+#time{
+    background: #fffcfce3;
+    width: 60px;
+    height: 400px;
+    border-radius: 80%;
+    text-align: center;
+    line-height: 90px;
+    vertical-align: middle;
+    padding: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+ .Services
+ {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px;
+    
+ }
+ .box
+ {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transform: translateY(5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    background: #ffffffe3;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+   
+width: 300px;
+height: 300px;
+left: 457px;
+top: 274px;
+
+background: #FFFFFF;
+box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+
+
+ }
+
+ #ser
+ {
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 80px;
+margin-top: 130px;
+text-align: center;
+/* or 167% */
+color: #131921;
+
+
+ }
+
+ .btn
+ {
+
+width: 160px;
+height: 50px;
+background: linear-gradient(265.91deg, #FF5633 3.99%, #FFCF07 100%);
+border-radius: 10px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 40px;
+font-size: 20px;
+line-height: 4px;
+margin-left: 660px;
+margin-top: 40px;
+margin-bottom: 90px;
+color: rgb(255, 255, 255);
+
+
+
+ }
+
+ .row
+ {
+    margin-top: 70px;
+  
+ }
+
+ #par2
+ {
+   
+width: 524px;
+height: 160px;
+left: 345px;
+top: 323px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 40px;
+/* or 182% */
+
+
+color: #131921;
+
+ }
+
+ #par1
+ {
+width: 524px;
+height: 160px;
+left: 974px;
+top: 344px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 40px;
+/* or 182% */
+
+
+color: #131921;
+ }
+
+ #p1
+ {
+    margin-top: 40px;
+    margin-left: 100px;
+ }
+ #p2
+ {
+    margin-top: 40px;
+    margin-left: 60px;
+ }
+
+ h4
+ {
+
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 40px;
+/* or 200% */
+
+letter-spacing: 0.1em;
+
+color: #FF5633;
+
+
+ }

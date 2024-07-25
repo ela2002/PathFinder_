@@ -1,0 +1,125 @@
+
+.container {
+  max-width: 2000px;
+  margin: auto;
+  padding:  15px;
+}
+#c1 {
+    background: linear-gradient(265.91deg, #ff5633 3.99%, #ffcf07 100%);
+  }
+  #c2 {
+    background-color: white;
+  }
+
+#i{
+  padding-left: 50px;
+}
+h1{
+  padding-left: 40px;
+}
+
+#img1 {
+  height: 45px;
+  width: 185px;
+  margin-left: 5px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+#img2{
+  height: 650px;
+  width: 300px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p{position: absolute;
+  color: white;
+  font-size: 25px;
+  padding-left: 20px;
+  font-family: 'Jost';
+font-style: normal;
+
+text-align: center;
+line-height: 20px;
+font-weight: 6px;
+font-size: 25px;
+}
+
+/*--------------------*/
+.card {
+  width: 1000px; /* Largeur de la carte */
+  height: 500px; /* Hauteur de la carte */
+  border-radius: 20px; /* Coins arrondis */
+  box-shadow: 10px 10px 10px rgba(75, 73, 73, 0.2); /* Ombre */
+  background-color: hsl(0, 0%, 100%); /* Couleur de fond */
+  padding: 40px; /* Marge intérieure */
+}
+
+ 
+  /*--------------------------------------*/
+  
+
+.btnn{
+display: inline-block;
+text-decoration: none;
+background: #ffffff;
+color: #ff5633;
+
+width: 75px;
+height: 75px;
+line-height: 75px;
+border-radius: 50%;
+text-align: center;
+font-weight: bold;
+vertical-align: middle;
+overflow: hidden;
+box-shadow: -10px -10px 20px #fff0f0; 
+
+}
+#b1{
+  margin-top: 0px;
+ margin-left: -85px;
+ border: solid 3px #ff5633;
+}
+#b2{
+  margin-top: 45px;
+ margin-left: -85px;
+ border-bottom: solid 3px #ff5633;
+}
+#b3{
+  margin-top: 40px;
+ margin-left: -85px;
+ border-bottom: solid 3px #ff5633;
+}
+#b4{
+  margin-top: 30px;
+ margin-left: -85px;
+ border-bottom: solid 3px #ff5633;
+}
+
+/*-----------------------------*/
+.title {
+  font-size: 16px;
+  font-family: 'Plus Jakarta Sans';
+  color: rgb(0, 0, 2);
+  margin-left: 11px;
+}
+
+
+
+
+.icon img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  padding: 20px;
+}
+
+
+
+
+

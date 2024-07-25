@@ -1,0 +1,28 @@
+*
+{
+ margin-top: 80px;
+    background-color: darkorange;
+}
+
+img
+{
+    height: 48px;
+    width: 160px;
+  margin-left: 520px;
+  margin-bottom: 5px;
+}
+
+h6
+{
+margin-bottom: 10px;
+text-align: left;
+margin-right: 180px;
+margin-left: 20px;
+
+
+}
+
+h6:hover
+{
+    color: azure;
+}

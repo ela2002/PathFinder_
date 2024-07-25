@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="">
+  <title>Document</title>
+</head>
+
+<body>
+  
+
+<div class="container">
+
+  <div class="zahy">
+    <div id="logo"> 
+     
+      <img src="../../assets/image/Layer 5 (1).png"  id="zah"  >
+     
+      
+    </div> 
+   <ul>
+     <br>
+     <li>
+       <a routerLink="/Listings" >
+         <span class="icon"> <img src="../../assets/image/list.png" > </span>
+         <span class="title">Listings</span>
+       </a>
+     </li>
+      
+     <li>
+       <a routerLink="/Favorit" >
+         <span class="icon"><img src="../../assets/image/comment-heart 1.png"></span>
+         <span class="title">Favorit</span>
+       </a>
+     </li>
+     <li>
+       <a routerLink="/Account" >
+         <span class="icon"> <img src="../../assets/image/user (1) 1.png"></span>
+         <span class="title">Account</span>
+       </a>
+     </li>
+     <li>
+       <a href="">
+         <span class="icon"><img src="../../assets/image/settings 1.png"></span>
+         <span class="title">Settings</span>
+       </a>
+     </li>
+     
+     
+     <li>
+       <a routerLink="/sign-in" id="log">
+         <span class="icon"><img src="../../assets/image/sign-out-alt 1.png"></span>
+         <span class="title">Log out</span>
+       </a>
+     </li>
+   </ul>
+ </div>
+  
+    <div class=" searchbare">
+
+      <span id ="listing"> Listings</span>
+       <div id="input">
+  
+         <input type="text" [(ngModel)]="searchText" placeholder="search for training /training center" id="search">
+       </div>
+   
+     <button style="width: 60px; height: 40px; " id="btn" >    <img src="../../assets/image/01 align center.png" alt="search" height="20" width="20" class="searchbel"></button>
+  
+      <img src="../../assets/image/Vector (2).png" alt="bel" height="20" width="20" class="searchbel">
+  
+      <span id="user"> hi! Eya 30</span>
+     
+
+        <img src="../../assets/image/MOI.jpg" alt="user" id="userimg"> 
+      
+      </div>
+      <div class="filter">
+        <span onclick="filterCourses(courses, budgetFilter.value, locationFilter.value, categoryFilter.value, starsFilter.value)"> Filter By :</span> 
+        <select name="" id="budgetFilter" class="select" >
+            <option value="">budget</option>
+            <option> less than 500 dt</option>
+            <option value="">500-700 dt</option>
+            <option value="">800-1300 dt</option>
+            <option value="">plus than 1300 dt</option>
+        </select>
+        <select name="" id="locationFilter" class="select">
+            <option value="">location</option>
+            <option value="">ben arous</option>
+            <option value="">nabeul</option>
+            <option value="">Ariana</option>
+            <option value="">Tunis</option>
+            <option value="">sousse</option>
+            <option value="">benzart</option>
+            <option value="">mahdia</option>
+            <option value="">gabes</option>
+            <option value="">sfax</option>
+            <option value="">beja</option>
+            <option value="">kef</option>
+            <option value="">jandouba</option>
+            <option value="">tatounin</option>
+            <option value="">kasrine</option>
+            <option value="">sidi bouzid</option>
+            <option value="">gafsa</option>
+            <option value="">mednin</option>
+            <option value="">kairoun</option>
+            <option value="">touzer</option>
+            <option value="">gbeli</option>
+            <option value="">manouba</option>
+            <option value="">zaghouen</option>
+            <option value="">tataouin</option>
+            <option value="">seliena</option>
+        </select>
+        <select name="" id="categoryFilter" class="select">
+            <option value="">category</option>
+            <option value="">Business and Management</option>
+            <option value="">Technical</option>
+            <option value="">Soft Skills </option>
+            <option value="">Sales and Marketing </option>
+            <option value="">Industry-Specific </option>
+            <option value="">Language</option>
+            <option value="">Art</option>
+            <option value="">cooking</option>
+            <option value="">others</option>
+        </select>
+        <select name="" id="starsFilter" class="select">
+            <option value="">stars</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+        </select>
+       
+
+    </div>
+  
+  
+  
+   <div class="home"  >
+
+    
+  
+    <div class="card" *ngFor = "let card of cards |filter:searchText" >
+
+      <img [src]="card.image" alt="Image de la carte" classe="carte" style="border-radius: 10px;" >
+      <div id="all">
+        <div class="groupe">
+          <h3>{{card.training}} </h3> 
+          <div id="stars">
+            <img src="../../assets/image/Star 13.png" alt="" srcset="" class="star" width="20px" > 
+             <img src="../../assets/image/Star 13.png" alt="" srcset="" class="star" width="20px"> 
+              <img src="../../assets/image/Star 13.png" alt="" srcset="" class="star"  width="20px"> 
+             <img src="../../assets/image/Star 12.png" alt="" srcset="" class="star"   width="20px"> 
+            </div>
+        </div>
+     
+        <img src="../../assets/image/Vector (3).png" alt="" width="20px"> <span style="padding-left: 20px; font-family: 'Plus Jakarta Sans';
+        " > {{card.center}}</span>  <img [src]="card.love" alt="" width="30px" style="padding-left:250px ;"  class="heart"  (click)="heart(card)">   
+        <p>{{card.description}}</p>
+        <img src="../../assets/image/coins 1.png" alt="" width="20px">
+        <img src="../../assets/image/Group 13.png" width="20px" style="padding-left: 40px;"> <br>
+        <div class="prix">
+        <span> {{card.prix}}</span>
+        <span style="padding-left: 12px;">{{card.location}}</span> <br> 
+        <span> category : </span> <span> {{card.category}} </span>
+      
+          <a  routerLink="/comment"> <button id="button" (click)="showDetails(card)" > > </button>  </a> 
+        </div>
+        
+      </div>
+
+    </div>
+  
+    <br> 
+   
+
+
+
+  
+</div>
+
+ </div>  
+
+
+ 
+
+
+ 
+</body>
+
+</html>
