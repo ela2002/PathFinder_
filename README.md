@@ -1,31 +1,125 @@
-<<<<<<< HEAD
 # Pathfinder
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
+Pathfinder is a web application designed to help users find training centers. It leverages Angular for the front end and PHP for the back end.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Search for training centers based on various criteria.
+- View detailed information about each training center.
+- User authentication and profile management.
+- Reviews and ratings for training centers.
+- Interactive map to locate training centers.
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Front End
 
-## Running unit tests
+- [Angular](https://angular.io/)
+- [Angular Material](https://material.angular.io/) for UI components
+- [RxJS](https://rxjs.dev/) for reactive programming
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Back End
 
-## Running end-to-end tests
+- [PHP](https://www.php.net/)
+- [MySQL](https://www.mysql.com/) for the database
+- [Composer](https://getcomposer.org/) for dependency management
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Other Tools
 
-## Further help
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) for package management
+- [Git](https://git-scm.com/) for version control
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# PathFinder
->>>>>>> 01c3755e8f120b33c4d416d61837681b89477333
+## Installation
+
+### Prerequisites
+
+- Node.js and npm
+- PHP
+- MySQL
+- Composer
+
+### Front End
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/pathfinder.git
+    cd pathfinder/frontend
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the Angular development server:
+    ```bash
+    ng serve
+    ```
+
+### Back End
+
+1. Navigate to the backend directory:
+    ```bash
+    cd pathfinder/backend
+    ```
+
+2. Install Composer dependencies:
+    ```bash
+    composer install
+    ```
+
+3. Set up the database:
+    - Create a MySQL database.
+    - Import the provided SQL file into the database.
+
+4. Configure the database connection in `config.php`:
+    ```php
+    <?php
+    define('DB_SERVER', 'localhost');
+    define('DB_USERNAME', 'your_username');
+    define('DB_PASSWORD', 'your_password');
+    define('DB_NAME', 'pathfinder');
+    ?>
+    ```
+
+5. Start the PHP server:
+    ```bash
+    php -S localhost:8000
+    ```
+
+## Usage
+
+- Access the application at `http://localhost:4200` for the Angular front end.
+- Ensure the back end server is running at `http://localhost:8000`.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeature`
+3. Make your changes and commit them: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/YourFeature`
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or feedback, please contact:
+
+- **Your Name**
+- Email: elarebai@gmail.com
+- LinkedIn: [Ela Rebai](https://www.linkedin.com/in/ela-rebai-466b77226/)
